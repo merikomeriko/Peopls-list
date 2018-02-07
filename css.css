@@ -1,0 +1,53 @@
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+ol.draggable_list li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+ol.draggable_list li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+input{
+   border-radius: 10px;
+    width: 250px;
+    font-family:cursive;
+    height: 40px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 20px;
+}
+*:focus {
+    outline: none;
+}
+.main_div{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+body{
+    background: linear-gradient(to left,#114357,#F29492);
+    font-family:cursive;
+}
+.result{
+    border: solid pink;
+    width: 350px;
+    border-radius: 20px;
+    padding: 25px;
+}
+li{
+    font-size: 25px;
+    cursor: pointer;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
